@@ -8,6 +8,9 @@ import (
 //teste
 
 const (
+	// Ambiente de Desenvolvimento, é o ambiente que os desenvolvedores ultilizam para construir o código.
+	// Ambiente de Homologação, é o ambiente de testes.
+	// Ambiente de Produção, é onde os usuários finais acessarão o software.
 	DEVELOPER    = "developer"
 	HOMOLOGATION = "homologation"
 	PRODUCTION   = "production"
